@@ -1,0 +1,423 @@
+body {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+     background: linear-gradient(80deg,red,blue,green,black);
+     background-size: 400% 400%;
+     position: relative;
+     animation: cambiar 10% ease-infinite;
+   }
+   
+ 
+   nav {
+     float: center;
+     list-style: none;
+     overflow: hidden;
+   
+   }
+   
+ .letra {
+     position: relative;
+     float: right;
+     margin-right: 250px;
+   }
+   
+   .letra2 {
+     position: relative;
+     float: right;
+     margin-right: 200px;
+   
+   }
+ 
+   .letra3{
+     position: relative;
+     margin-right: 180px;
+     float: right;
+ }
+ 
+   
+ nav ul {
+     list-style: none;
+     overflow: hidden;
+   }
+   
+ nav ul li {
+     font-family: Impact, sans-serif;
+     font-size: 20px;
+   }
+   
+   nav ul li a {
+     display: block;
+     padding: 10px;
+     color: rgb(255, 250, 250);
+     text-decoration: none;
+   }
+   
+   .letra:hover {
+     background: rgba(250, 252, 255, 0.801);
+     color: rgba(0, 0, 0, 0.801);
+   }
+   
+   .letra2:hover {
+     background: rgba(255, 255, 255, 0.801);
+     color: rgba(0, 0, 0, 0.801);
+   }
+   
+   .letra:active {
+     color: rgb(0, 0, 0);
+     background: whitesmoke;
+   }
+   
+   .letra2:active {
+     color: rgb(0, 0, 0);
+     background: rgb(255, 255, 255);
+   }
+   .letra3:hover {
+     background: rgba(255, 255, 255, 0.801);
+     color: rgba(0, 0, 0, 0.801);
+   }
+   .letra3:active {
+     color: rgb(0, 0, 0);
+     background: rgb(255, 255, 255);
+   
+   }
+   
+   
+   * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Open Sans', sans-serif;
+   }
+ 
+   .charmander1 {
+     margin-right: 900px;
+     top: -40px;
+   
+   }
+   
+   main {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 50px;
+     font-family: "Roboto", sans-serif;
+   }
+   
+   .charmander1 {
+     width: 20rem;
+     height: 25rem;
+     border-radius: 10px;
+     overflow: hidden;
+     cursor: pointer;
+     position: relative;
+     color: #030303;
+     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+     font-family: Impact;
+   }
+   
+   .charmander1 img {
+     position: absolute;
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     opacity: 0.9;
+     transition: opacity 0.2s ease-out;
+     background: rgb(71, 7, 7);
+   }
+   
+   .charmander1 h2 {
+     position: absolute;
+     inset: auto auto 30px 30px;
+     margin: 0;
+     transition: inset 0.3s 0.3s ease-out;
+     font-family: "impact", sans-serif;
+     font-weight: normal;
+     text-transform: uppercase;
+     color: rgb(232, 233, 212);
+   }
+   
+   .charmander1 p,
+   .charmander1 a {
+     position: absolute;
+     opacity: 0;
+     max-width: 80%;
+     transition: opacity 0.3s ease-out;
+   }
+   
+   .charmander1 p {
+     inset: auto auto 80px 30px;
+   }
+   
+   .charmander1 a {
+     inset: auto auto 40px 30px;
+     color: inherit;
+     text-decoration: none;
+   }
+   
+   .charmander1:hover h2 {
+     inset: auto auto 220px 30px;
+     transition: inset 0.3s ease-out;
+   }
+   
+   .charmander1:hover p,
+   .charmander1:hover a {
+     opacity: 1;
+     transition: opacity 0.5s 0.1s ease-in;
+   }
+   
+   .charmander1:hover img {
+     transition: opacity 0.3s ease-in;
+     opacity: 1;
+   }
+   
+   .charmander2 {
+     vertical-align: middle;
+   }
+ 
+ 
+ 
+   .Squirtle1 {
+     margin-left: 25px;
+     top: -545px;
+   }
+   
+   .Squirtle1 {
+     width: 20rem;
+     height: 25rem;
+     border-radius: 10px;
+     overflow: hidden;
+     cursor: pointer;
+     position: relative;
+     color: #030303;
+     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+     font-family: Impact;
+   }
+   
+   .Squirtle1 img {
+     position: absolute;
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     opacity: 0.9;
+     transition: opacity 0.2s ease-out;
+     background: rgb(5, 80, 141);
+   }
+   
+   .Squirtle1 h2 {
+     position: absolute;
+     inset: auto auto 30px 30px;
+     margin: 0;
+     transition: inset 0.3s 0.3s ease-out;
+     font-family: "impact", sans-serif;
+     font-weight: normal;
+     text-transform: uppercase;
+     color: rgb(232, 233, 212);
+   }
+   
+   .Squirtle1 p,
+   .Squirtle1 a {
+     position: absolute;
+     opacity: 0;
+     max-width: 80%;
+     transition: opacity 0.3s ease-out;
+   }
+   
+   .Squirtle1 p {
+     inset: auto auto 80px 30px;
+   }
+   
+   .Squirtle1 a {
+     inset: auto auto 40px 30px;
+     color: inherit;
+     text-decoration: none;
+   }
+   
+   .Squirtle1:hover h2 {
+     inset: auto auto 220px 30px;
+     transition: inset 0.3s ease-out;
+   }
+   
+   .Squirtle1:hover p,
+   .Squirtle1:hover a {
+     opacity: 1;
+     transition: opacity 0.5s 0.1s ease-in;
+   }
+   
+   .Squirtle1:hover img {
+     transition: opacity 0.3s ease-in;
+     opacity: 1;
+   }
+   
+   .Squirtle1 {
+     vertical-align: middle;
+   }
+ 
+ 
+   .Charmeleon {
+     margin-left: 900px;
+     top: -1046px;
+   }
+   
+   .Charmeleon {
+     width: 20rem;
+     height: 25rem;
+     border-radius: 10px;
+     overflow: hidden;
+     cursor: pointer;
+     position: relative;
+     color: #030303;
+     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+     font-family: Impact;
+   }
+   
+   .Charmeleon img {
+     position: absolute;
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     opacity: 0.9;
+     transition: opacity 0.2s ease-out;
+     background: rgb(197, 46, 8);
+   }
+   
+   .Charmeleon h2 {
+     position: absolute;
+     inset: auto auto 30px 30px;
+     margin: 0;
+     transition: inset 0.3s 0.3s ease-out;
+     font-family: "impact", sans-serif;
+     font-weight: normal;
+     text-transform: uppercase;
+     color: rgb(232, 233, 212);
+   }
+   
+   .Charmeleon p,
+   .Charmeleon a {
+     position: absolute;
+     opacity: 0;
+     max-width: 80%;
+     transition: opacity 0.3s ease-out;
+   }
+   
+   .Charmeleon p {
+     inset: auto auto 80px 30px;
+   }
+   
+   .Charmeleon a {
+     inset: auto auto 40px 30px;
+     color: inherit;
+     text-decoration: none;
+   }
+   
+   .Charmeleon:hover h2 {
+     inset: auto auto 220px 30px;
+     transition: inset 0.3s ease-out;
+   }
+   
+   .Charmeleon:hover p,
+   .Charmeleon:hover a {
+     opacity: 1;
+     transition: opacity 0.5s 0.1s ease-in;
+   }
+   
+   .Charmeleon:hover img {
+     transition: opacity 0.3s ease-in;
+     opacity: 1;
+   }
+   
+   .Charmeleon2 {
+     vertical-align: middle;
+   }
+   
+   
+ 
+   .Charizad {
+     margin-left: 35px;
+     top: -500px;
+   }
+   
+   .Charizad {
+     width: 20rem;
+     height: 25rem;
+     border-radius: 10px;
+     overflow: hidden;
+     cursor: pointer;
+     position: relative;
+     color: #030303;
+     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+     font-family: Impact;
+   }
+   
+   .Charizad img {
+     position: absolute;
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     opacity: 0.9;
+     transition: opacity 0.2s ease-out;
+     background: rgb(197, 46, 8);
+   }
+   
+   .Charizad h2 {
+     position: absolute;
+     inset: auto auto 30px 30px;
+     margin: 0;
+     transition: inset 0.3s 0.3s ease-out;
+     font-family: "impact", sans-serif;
+     font-weight: normal;
+     text-transform: uppercase;
+     color: rgb(232, 233, 212);
+   }
+   
+   .Charizad p,
+   .Charizad a {
+     position: absolute;
+     opacity: 0;
+     max-width: 80%;
+     transition: opacity 0.3s ease-out;
+   }
+   
+   .Charizad p {
+     inset: auto auto 80px 30px;
+   }
+   
+   .Charizad a {
+     inset: auto auto 40px 30px;
+     color: inherit;
+     text-decoration: none;
+   }
+   
+   .Charizad:hover h2 {
+     inset: auto auto 220px 30px;
+     transition: inset 0.3s ease-out;
+   }
+   
+   .Charizad:hover p,
+   .Charizad:hover a {
+     opacity: 1;
+     transition: opacity 0.5s 0.1s ease-in;
+   }
+   
+   .Charizad:hover img {
+     transition: opacity 0.3s ease-in;
+     opacity: 1;
+   }
+   
+   .Charizad2 {
+     vertical-align: middle;
+   }
+
+   
